@@ -16,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={font.className}>{children}</body>
+      <body className={font.className}>
+        <div className='overflow-hidden'>
+          {children}
+        </div>
+      </body>
     </html>
   )
 }
