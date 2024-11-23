@@ -2,16 +2,16 @@
 
 import Image from "next/image";
 import { Link as ScrollLink, Element } from "react-scroll";
-import Link from "next/link";  // Added this import
+import Link from "next/link"; 
 import Logo from "../../assets/logo.svg"
 
 const TopBar = () => {
 
     return (
-        <div className="w-full h-full">
+      <div className="w-full h-full">
             <Element
         name="top"
-        className="overflow-hidden rounded-[6px] top-5 sticky md:mx-auto z-50 xl:w-4/5 2xl:w-[68%] bg-neutral-950/25 flex items-center justify-between py-6 px-4 md:px-8 mx-6"
+        className="overflow-hidden rounded-[6px] top-5 sticky md:mx-auto z-50 md:w-4/5 lg:w-[78%] bg-neutral-950/25 flex items-center justify-between py-6 px-4 md:px-8 mx-6"
       >
         <Link href="/">
             <Image

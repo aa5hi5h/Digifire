@@ -77,7 +77,7 @@ export function Features() {
       </h2>
 
       {/* Features */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 z-40 xl:w-4/5 2xl:w-[68%] mx-auto ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10 z-40 md:w-4/5 lg:w-[78%] mx-auto ">
         {features.map((feature, index) => (
           <div
             key={index}

@@ -7,7 +7,7 @@ import ProposalPng from "../../assets/proposal_illustration.png"
 function Footer() {
   return (
     <section className="
-     my-10 md:py-20  md:mx-auto
+     my-10 md:py-20 md:w-4/5 lg:w-[78%]  md:mx-auto
     bg-accent rounded-[45px] p-[50px] md:p-[60px] relative">
       <div className="md:pr-[22rem] text-black">
         <p className="text-3xl font-medium">
